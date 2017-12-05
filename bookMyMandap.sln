@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookMyMandap", "bookMyMandap\bookMyMandap.csproj", "{0775E777-EE76-498D-9F39-71EF6E8C40C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0775E777-EE76-498D-9F39-71EF6E8C40C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0775E777-EE76-498D-9F39-71EF6E8C40C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0775E777-EE76-498D-9F39-71EF6E8C40C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0775E777-EE76-498D-9F39-71EF6E8C40C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0AC267F-334B-4D52-BABA-E3698C5D0812}
+	EndGlobalSection
+EndGlobal
