@@ -34,7 +34,11 @@ namespace bookMyMandap.Controllers
         [Route("Register")]
         public async Task<IActionResult> Register([FromBody]RegisterViewModel model)
         {
-           
+            if (!model.Email.Contains("@gmail.com"))
+            {return BadRequest("You r not a gmail user.");
+            }
+
+                
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
